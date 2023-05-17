@@ -20,8 +20,7 @@ $$
 
 ## Analytical solution
 
-The system has the analytical solution
-$$ x $$ 
+$$x$$
 
 ## Numerical solution
 
