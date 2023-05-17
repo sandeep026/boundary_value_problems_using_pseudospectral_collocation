@@ -21,11 +21,12 @@ $$
 
 ## Analytical solution
 
-The system has the analytical solution $$ 
+The system has the analytical solution
+$$ 
 \begin{equation}
 x(t=-1)=x(t=1)=1
 \end{equation}
-$$ .
+$$ 
 
 ## Numerical solution
 
