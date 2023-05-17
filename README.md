@@ -20,7 +20,7 @@ $$
 
 ## Analytical solution
 
-$$x$$
+The system has the solution $$x(t)=\frac{t^2-1}{2}$$
 
 ## Numerical solution
 
