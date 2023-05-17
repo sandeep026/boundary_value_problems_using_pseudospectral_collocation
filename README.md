@@ -21,7 +21,7 @@ $$
 
 ## Analytical solution
 
-The system has the analytical solution $$ \begin{equation} x(t)=0  \end{equation}$$.
+The system has the analytical solution $$ \begin{equation} x(t)=\exp{}  \end{equation}$$ .
 
 ## Numerical solution
 
