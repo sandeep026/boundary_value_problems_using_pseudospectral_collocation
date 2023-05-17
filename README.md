@@ -24,7 +24,7 @@ The system has the solution $$x(t)=\exp(\frac{t^2-1}{2})$$
 
 ## Numerical solution
 
-In order to solve the system  numerically, the problem is discretized using pseudospectral method. $$x(t)$$ is approximated using a global polynomial whose values are defined at the LGL collocation nodes. This polynomial is differentiated to the required degree and constraints are imposed. These include the boundary conditions and the satisfaction of the dynamics at the collocation points. Satifying the BC and dynamics at -1 and 1 leads to a overdetermined system. Hence, the BC are only imposed at the end points and dynamics constraints are ignored. This leads to a system of equation with equal number of variables and equations. This can lead a linear/nonlinear system of equation which can be solved.
+In order to solve the system  numerically, the problem is discretized using pseudospectral method. $x(t)$ is approximated using a global polynomial whose values are defined at the LGL collocation nodes. This polynomial is differentiated to the required degree and constraints are imposed. These include the boundary conditions and the satisfaction of the dynamics at the collocation points. Satifying the BC and dynamics at -1 and 1 leads to a overdetermined system. Hence, the BC are only imposed at the end points and dynamics constraints are ignored. This leads to a system of equation with equal number of variables and equations. This can lead a linear/nonlinear system of equation which can be solved.
 
 ## Implementation
 
