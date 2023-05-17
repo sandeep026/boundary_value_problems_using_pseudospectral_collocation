@@ -21,7 +21,7 @@ $$
 
 ## Analytical solution
 
-The system has the analytical solution $$ x(t)=\exp{\frac{t^2-1){2}} $$.
+The system has the analytical solution $$ x(t)=\exp{ \frac{t^2-1}{2}  } $$.
 
 ## Numerical solution
 
