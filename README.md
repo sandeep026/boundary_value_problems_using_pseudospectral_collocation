@@ -34,6 +34,11 @@ In the code, the boundary conditions and  the dynamics are treated as nonlinear 
 
 The numerical and analytical solution are identical as shown in the figure below. In addition, the spectral convergence of the method is also additional verified by increasing the grid size progressively.
 
+![image](https://github.com/sandeep026/Boundary-value-problem--LGL-pseudospectral-collocation/assets/16457676/5064a0f2-45b0-46ea-9758-6516a3e98957)
+
+![image](https://github.com/sandeep026/Boundary-value-problem--LGL-pseudospectral-collocation/assets/16457676/1b81e44a-6087-42e4-b34b-9bb81d2b0a6c)
+
+![image](https://github.com/sandeep026/Boundary-value-problem--LGL-pseudospectral-collocation/assets/16457676/5b3b9bfb-1d86-4785-85aa-7fc8b9240e06)
 
 ## References
 
