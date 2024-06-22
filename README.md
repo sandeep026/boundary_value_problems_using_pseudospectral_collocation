@@ -32,6 +32,11 @@ Pseudospectral collocation requires the following steps
 
 An optimization problem without an objective function and inequality constraints is simply a system of equation which may be linear or nonlinear.
 Using the principle, we use IPOPT to solve the system of nonlinear equations. CasADi's ```Opti()``` (meant as modelling language for optimization problems) is used to model the equations.
+The codes serve the following purposes.
+
+* ```bvp_main.m``` - solve the BVP for a given grid size and compare with analytical solution
+* ```bvp.m, convergence.m``` - study exponential/spectral convergence of discretization error
+* ```legslb.m, legslbdiff.m, lepoly.m, lepolym.m``` - supplementary files for LGL collocation
 
 ## Requirements
 * OCTAVE-6.1.0
