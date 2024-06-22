@@ -43,15 +43,18 @@ sol=opti.solve();
 
 Xs=sol.value(X);
 Xa=exp((t.^2-1)/2);
-plot(t,Xs,'d',t,Xa);
+plot(t,Xs,'d')
+plot(t,Xa,'linewidth',3);
 xlabel('time [s]')
-ylabel('$x(t)$')
+ylabel('x(t)')
 grid on
+set(gca,'FontSize',16)
+print('sol.svg', '-dsvg', '-r600')
 figure
-semilogy((abs(Xs-Xa)));
+semilogy((abs(Xs-Xa)),'linewidth',3);
 xlabel('time [s]')
 ylabel('Error')
+set(gca,'FontSize',16)
+print('esol.svg', '-dsvg', '-r600')
 grid on
-Plot()
-
 err=norm(Xs-Xa,2,'fro');
