@@ -47,7 +47,10 @@ Using the principle, we use IPOPT to solve the system of nonlinear equations. Ca
 
 ### Spectral/exponential convergence
 
-A key feature of pseudospectral collocation is rapid decrease in discretization error with increasing grid size.
+A key feature of pseudospectral collocation is rapid decrease in discretization error with increasing grid size. However, for larger N ($\geq 100$),
+the problem can get numerically ill-conditioned.
+
+Some solutions include using knotting, preconditioners and Birkhoff collocation.
 
 ![image](exp.svg)
 
