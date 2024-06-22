@@ -40,16 +40,16 @@ Using the principle, we use IPOPT to solve the system of nonlinear equations. Ca
 ## Comparison of numerical and analytical results
 
 ### side by side plot 
-![image](https://github.com/sandeep026/Boundary-value-problem--LGL-pseudospectral-collocation/assets/16457676/5064a0f2-45b0-46ea-9758-6516a3e98957)
+![image](sol.svg)
 
 ### error plot
-![image](https://github.com/sandeep026/Boundary-value-problem--LGL-pseudospectral-collocation/assets/16457676/1b81e44a-6087-42e4-b34b-9bb81d2b0a6c)
+![image](esol.svg)
 
 ### Spectral/exponential convergence
 
 A key feature of pseudospectral collocation is rapid decrease in discretization error with increasing grid size.
 
-![image](https://github.com/sandeep026/Boundary-value-problem--LGL-pseudospectral-collocation/assets/16457676/5b3b9bfb-1d86-4785-85aa-7fc8b9240e06)
+![image](exp.svg)
 
 ## References
 
